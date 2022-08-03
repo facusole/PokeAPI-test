@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 :root {
   background-color: rgb(204, 204, 204);
 }
 
-.App {
+.container {
   display: flex;
   justify-content: center;
   margin-top: 250px;
@@ -16,6 +18,7 @@
   align-items: center;
   flex-direction: column;
   background-color: white;
+  margin-right: 1rem;
 }
 
 img {
@@ -25,9 +28,9 @@ img {
 
 button {
   width: 200px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
   background-color: blueviolet;
   border: solid 2px white;
@@ -43,9 +46,22 @@ button:hover {
 
 .name {
   font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   color: #333333;
   margin: 0 0 2rem 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+li  {
+  /* list-style-image: url('https://cdn.icon-icons.com/icons2/851/PNG/512/pokemon_moltres_icon-icons.com_67518.png'); */
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
 }
