@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 :root {
   background-color: rgb(204, 204, 204);
@@ -28,7 +28,7 @@ img {
 
 button {
   width: 200px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   color: white;
@@ -46,7 +46,7 @@ button:hover {
 
 .name {
   font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   color: #333333;
@@ -61,7 +61,8 @@ ul {
 
 li  {
   /* list-style-image: url('https://cdn.icon-icons.com/icons2/851/PNG/512/pokemon_moltres_icon-icons.com_67518.png'); */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: 400;
+  text-transform: capitalize;
 }
