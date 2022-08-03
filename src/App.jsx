@@ -20,7 +20,7 @@ function App() {
 
       <div className='container'>
         <div className="border">
-        <img src={pokemon.sprites.front_default} />
+        <img src={pokemon.sprites.front_default} alt='Pokemon' />
         <div className='name'>{pokemon.species ? pokemon.species.name : ''}</div>
         <button onClick={handlePokemon}>Mostrar</button>
       </div>
