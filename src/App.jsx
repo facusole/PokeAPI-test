@@ -22,7 +22,7 @@ function App() {
         <div className="border">
         <img src={pokemon.sprites.front_default} alt='Pokemon' />
         <div className='name'>{pokemon.species ? pokemon.species.name : ''}</div>
-        <button onClick={handlePokemon}>Mostrar</button>
+        <button onClick={handlePokemon}>ReRoll</button>
       </div>
       <div className="border">
         <ul>
@@ -37,7 +37,7 @@ function App() {
       </div> 
 
       : <div className='container'>
-        <button onClick={handlePokemon}>Mostrar</button>
+        <button onClick={handlePokemon}>Find a Pokemon</button>
 
         </div>}     
     </div>
