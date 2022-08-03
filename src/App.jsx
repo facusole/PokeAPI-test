@@ -37,7 +37,7 @@ function App() {
       </div> 
 
       : <div className='container'>
-        <button onClick={handlePokemon}>Find a Pokemon</button>
+        <button className='center' onClick={handlePokemon}>Find a Pokemon</button>
 
         </div>}     
     </div>
